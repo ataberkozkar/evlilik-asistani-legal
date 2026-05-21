@@ -10,46 +10,105 @@
         h2 { font-size: 18px; margin-top: 24px; }
         p { margin: 12px 0; }
         ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
         a { color: #007AFF; }
     </style>
 </head>
 <body>
     <h1>Gizlilik Politikası</h1>
-    <p><strong>Son güncelleme: 2026</strong></p>
+    <p><strong>Son güncelleme: Mayıs 2026</strong></p>
 
     <p>Evlilik Asistanı olarak gizliliğinize saygı duyuyoruz. Bu politika, hangi verileri topladığımızı, nasıl kullandığımızı ve haklarınızı açıklar.</p>
 
     <h2>1. Topladığımız Veriler</h2>
     <ul>
-        <li><strong>Hesap bilgileri:</strong> E-posta, isim (isteğe bağlı)</li>
-        <li><strong>Uygulama verileri:</strong> Listeler, ürünler, satın alma kayıtları</li>
-        <li><strong>Cihaz bilgileri:</strong> Push bildirimleri için cihaz token'ı</li>
-        <li><strong>Kullanım verileri:</strong> Google Analytics ile anonim kullanım istatistikleri</li>
+        <li><strong>Hesap bilgileri:</strong> İsim (isteğe bağlı), e-posta adresi</li>
+        <li><strong>Uygulama verileri:</strong> Listeler, ürünler, davetiye kayıtları, müzik listeleri, satın alma kayıtları</li>
+        <li><strong>Fotoğraflar:</strong> Ürün fotoğrafı ve profil fotoğrafı (yalnızca kullanıcı yüklediğinde)</li>
+        <li><strong>Cihaz bilgileri:</strong> Push bildirimleri için cihaz token'ı, reklam için cihaz kimliği (yalnızca ücretsiz sürümde)</li>
+        <li><strong>Kullanım verileri:</strong> Uygulama etkileşimleri ve anonim kullanım istatistikleri</li>
+        <li><strong>Satın alma geçmişi:</strong> Premium abonelik durumu (Apple tarafından yönetilir)</li>
     </ul>
 
     <h2>2. Verilerin Kullanımı</h2>
-    <p>Verilerinizi hizmet sunumu, senkronizasyon, destek ve uygulama iyileştirmesi için kullanıyoruz.</p>
+    <p>Topladığımız verileri şu amaçlarla kullanıyoruz:</p>
+    <ul>
+        <li>Uygulama işlevselliğini sağlamak (listeler, senkronizasyon, davetiye)</li>
+        <li>Hesap ve oturum yönetimi</li>
+        <li>Uygulama kalitesini iyileştirmek (hata raporlama, performans izleme)</li>
+        <li>Ücretsiz sürümde reklam göstermek (Google AdMob aracılığıyla)</li>
+        <li>Premium abonelik yönetimi</li>
+    </ul>
 
-    <h2>3. Üçüncü Taraf Hizmetler</h2>
-    <p>Firebase (Auth, Firestore, Analytics), Apple (App Store, StoreKit) ve Google Analytics kullanıyoruz. Bu hizmetler kendi gizlilik politikalarına tabidir.</p>
+    <h2>3. Reklamlar</h2>
+    <p><strong>Yalnızca ücretsiz sürüm için geçerlidir.</strong> Uygulamamızın ücretsiz sürümünde Google AdMob aracılığıyla banner ve tam ekran reklam gösterilmektedir.</p>
+    <ul>
+        <li>AdMob, reklamları sunmak amacıyla cihaz kimliği (IDFA) gibi tanımlayıcıları kullanabilir.</li>
+        <li>Gösterilen reklamlar ve etkileşim verileri Google tarafından işlenir.</li>
+        <li>Reklam gösterimi kişiselleştirme, Google'ın gizlilik politikasına tabidir.</li>
+        <li><strong>Premium aboneliği satın alan kullanıcılara hiçbir reklam gösterilmez.</strong></li>
+    </ul>
+    <p>Google'ın reklam gizlilik politikası: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
+    <p>Google'ın reklam teknolojileri hakkında daha fazla bilgi: <a href="https://support.google.com/admob/answer/6128543">Google AdMob Gizlilik</a></p>
 
-    <h2>4. Veri Güvenliği</h2>
-    <p>Verilerinizi güvende tutmak için endüstri standardı güvenlik önlemleri uyguluyoruz.</p>
+    <h2>4. Üçüncü Taraf Hizmetler</h2>
+    <p>Aşağıdaki üçüncü taraf hizmetleri kullanıyoruz. Bu hizmetler kendi gizlilik politikalarına tabidir:</p>
+    <ul>
+        <li>
+            <strong>Google AdMob</strong> – Ücretsiz sürümde reklam gösterimi.<br>
+            <a href="https://policies.google.com/privacy">Google Gizlilik Politikası</a>
+        </li>
+        <li>
+            <strong>Firebase Authentication</strong> – Anonim ve hesap tabanlı kimlik doğrulama.<br>
+            <a href="https://firebase.google.com/support/privacy">Firebase Gizlilik Politikası</a>
+        </li>
+        <li>
+            <strong>Firebase Firestore</strong> – Kullanıcı verilerinin bulut depolama ve senkronizasyonu.
+        </li>
+        <li>
+            <strong>Firebase Analytics</strong> – Anonim kullanım istatistikleri.
+        </li>
+        <li>
+            <strong>Firebase Crashlytics</strong> – Uygulama hata raporlama.
+        </li>
+        <li>
+            <strong>Firebase Cloud Messaging (FCM)</strong> – Push bildirimleri.
+        </li>
+        <li>
+            <strong>Apple (App Store, StoreKit)</strong> – Uygulama dağıtımı ve abonelik yönetimi.<br>
+            <a href="https://www.apple.com/legal/privacy/tr/">Apple Gizlilik Politikası</a>
+        </li>
+    </ul>
 
-    <h2>5. Veri Saklama</h2>
-    <p>Hesabınız aktif olduğu sürece verileriniz saklanır. Hesap silindiğinde veriler uygun süre içinde kaldırılır.</p>
+    <h2>5. Abonelik ve Satın Alma</h2>
+    <p>Premium abonelik Apple App Store üzerinden yönetilir. Ödeme bilgileri yalnızca Apple tarafından işlenir; uygulamamız ödeme kartı bilgilerine erişemez. Premium abonelik yalnızca uygulama içi reklamları kaldırır; tüm uygulama özellikleri ücretsiz olarak kullanılabilir.</p>
+    <p>Aboneliği iptal etmek için: <strong>Ayarlar → Apple Kimliği → Abonelikler</strong></p>
 
-    <h2>6. Haklarınız</h2>
-    <p>KVKK kapsamında verilerinize erişim, düzeltme ve silme talebinde bulunma hakkınız vardır.</p>
+    <h2>6. Veri Güvenliği</h2>
+    <p>Verilerinizi güvende tutmak için Firebase güvenlik kuralları ve endüstri standardı şifreleme yöntemleri kullanıyoruz. Verileriniz Firebase'in güvenli altyapısında saklanmaktadır.</p>
 
-    <h2>7. Çocuklar</h2>
-    <p>Uygulama 13 yaş altı kullanıcılar için tasarlanmamıştır. Bilerek çocuk verisi toplamıyoruz.</p>
+    <h2>7. Veri Saklama</h2>
+    <p>Hesabınız aktif olduğu sürece verileriniz saklanır. Hesabınızı sildiğinizde tüm verileriniz en geç 30 gün içinde kalıcı olarak silinir.</p>
 
-    <h2>8. Değişiklikler</h2>
-    <p>Bu politika güncellenebilir. Önemli değişikliklerde sizi bilgilendireceğiz.</p>
+    <h2>8. Haklarınız</h2>
+    <p>KVKK (Kişisel Verilerin Korunması Kanunu) kapsamında aşağıdaki haklara sahipsiniz:</p>
+    <ul>
+        <li>Kişisel verilerinize erişim talep etme</li>
+        <li>Hatalı verilerin düzeltilmesini isteme</li>
+        <li>Verilerinizin silinmesini talep etme (hesap silme)</li>
+        <li>Veri işlemeye itiraz etme</li>
+    </ul>
+    <p>Bu hakları kullanmak için uygulama içindeki "Hesabı Sil" özelliğini kullanabilir veya bizimle iletişime geçebilirsiniz.</p>
 
-    <h2>9. İletişim</h2>
-    <p>Sorularınız için: <a href="mailto:dugunasistani98@gmail.com">dugunasistani98@gmail.com</a></p>
+    <h2>9. Çocuklar</h2>
+    <p>Uygulama 13 yaş altı kullanıcılar için tasarlanmamıştır. Bilerek 13 yaş altı kullanıcılardan veri toplamıyoruz. Bu konuda bir farkındalık oluşursa ilgili verileri derhal sileriz.</p>
+
+    <h2>10. Değişiklikler</h2>
+    <p>Bu politika zaman zaman güncellenebilir. Önemli değişikliklerde kullanıcıları bildirim veya uygulama içi mesaj ile bilgilendireceğiz. Güncel politikayı her zaman bu sayfada bulabilirsiniz.</p>
+
+    <h2>11. İletişim</h2>
+    <p>Gizlilik politikamız hakkında sorularınız için:<br>
+    <a href="mailto:dugunasistani98@gmail.com">dugunasistani98@gmail.com</a></p>
 
     <p>© 2024 - 2026 Evlilik Asistanı. Tüm hakları saklıdır.</p>
 </body>
